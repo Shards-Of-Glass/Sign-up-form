@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    display: flex;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.sidebar{
+    flex: 1;
+    background-image: url(assets/toa-heftiba-JTWOWjraDUE-unsplash.jpg) ;
+    height: 100vh;
+    width: 300px;
+    background-size: cover;
+    background-position: center; 
+}
+.form-class{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+  justify-content: center;
+}
+.form{
+    margin-top: 1rem;
+}
+.logo {
+ 
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+.logo img{
+    position:center;
+    width:60%;
+}
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+}
